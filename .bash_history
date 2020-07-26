@@ -96,3 +96,157 @@ docker rm -f a778607f870c
 docker run --name webserver -d -p 80:80 -v ${PWD}/static-website-example:/usr/local/apache2/htdocs/ httpd
 docker ps -a
 docker rm -f 2a8b19158361
+ls
+docker ps -a
+docker run --name webserver -d -p 8080:80 -v ${PWD}/static-website-example:/usr/local/apache2/htdocs/ httpd
+docker ps
+docker logs webserver
+clear 
+docker ps -a
+docker rm -f 4a091893e6ee
+docker run --name webserver -d -p 80:80 -v ${PWD}/static-website-example:/usr/local/apache2/htdocs/ httpd
+docker logs webserver
+ls
+cd static-website-example/
+ls
+vi index.html 
+docker restart webserver
+cd ..
+ls
+git init
+git remote add https://github.com/sakoba11/docker_webapp_latest.git
+git remote add origin https://github.com/sakoba11/docker_webapp_latest.git
+git add status
+git status
+git add .
+git status
+git commit -m "dernière version application Thierno Dimension"
+git push origin master
+git pull origin master
+git push origin master
+ls
+cd static-website-example/
+ls
+cd static-website-example/
+ls
+git init
+git remote add origin https://github.com/sakoba11/docker_webapp_latest.git
+git init
+git remote add origin https://github.com/sakoba11/Docker_webapp_automatisation.git
+git status
+git add .
+git status
+git commit -m "Automatisation d'application Thierno Dimension avec Bind-mount"
+git pull origin master
+git push origin master
+git init 
+git remote add origin https://github.com/sakoba11/Docker_webapp_automatisation.git
+git add .
+git commit -m "dernière version avec bind-mount"
+git status
+git push origin master
+cd ..
+ls
+vi docker-compose.yml
+docker-compose up -d
+sudo docker-compose up -d
+ls
+sudo docker-compose up -d
+docker ps
+docker-compose logs
+ls
+cd addons/
+ls
+cd ..
+ls
+docker-compose up -d
+vi docker-compose.yml 
+docker-compose up -d
+ls
+cat README.md 
+rm README.md 
+ls
+mkdir appli-version1
+mv webapp/ appli-version1/
+ls
+cd appli-version1/
+git init
+git remote add origin https://github.com/sakoba11/applica-version1.git
+git status
+git add .
+git commit -m "push firt application"
+git status
+git push origin master
+git pull origin master
+git push origin master
+ls
+cd webapp/
+ls
+cat README.md 
+cd README.md 
+vi README.md 
+rm README.md 
+ls
+cd ..
+ls
+car README.md 
+cat README.md 
+rm README.md 
+ls
+git init
+git status
+git add .
+git status
+git commit -m "update"
+git commit -a
+git commit -m "update"
+git add .
+git status
+git branch sakoba
+git checkout
+git branch
+git checkout sakoba
+git branch
+git checkout master
+git merge sakoba
+git add .
+git status
+git add
+git add .
+git clone git@github.com:sakoba11/appli-version1.git
+sudo git clone git@github.com:sakoba11/appli-version1.git
+sudo git clone https://github.com/sakoba11/appli-version1.git
+git push origin master
+git init
+git add .
+git status
+ls
+cd appli-version1/
+ls
+rm README.md 
+ls
+cat README.md 
+rm -r README.md 
+sudo rm -r README.md 
+ls
+cd ..
+ls
+cd ..
+ls
+cd appli-version1/
+ls
+rm appli-version1/
+sudo rm -r appli-version1/
+clear 
+ls
+cd webapp/
+ls
+vi Dockerfile 
+cd ..
+ls
+cd ..
+ls
+clear 
+ls
+cd appli-version1/
+ls
