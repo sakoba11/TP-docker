@@ -250,3 +250,120 @@ clear
 ls
 cd appli-version1/
 ls
+git remote -v
+git remote rm origin
+git remote -v
+cd static-website-example/
+ls
+vi index.html 
+cd
+ls
+cd static-website-example/
+ls
+git remote -v
+git remote rm origin
+clear 
+ls
+cd images/
+ls
+git remote -v
+cd ..
+git remote -v
+cd..
+cd ..
+git remote -v
+ls
+cd docker-gitlab/
+ls
+git remote -v
+git remote rm origin
+clear 
+ls
+vi docker-compose.yml 
+cd ..
+ls
+cd config/
+git remote -v
+ls
+rm -rf config
+ls
+cd ..
+ls
+rm -rf config
+ls
+cat addons/
+cd addons/
+ls
+cd ..
+vi docker-compose.yml 
+clear 
+ls
+cd appli-version1/
+ls
+cd webapp/
+ls
+cd Dockerfile 
+vi Dockerfile 
+git remote -v
+git remote rm origin
+git remote -v
+cd ..
+ls
+git remote -v
+git remote rm origin
+git remote -v
+cd ..
+ls
+cd docker-gitlab/
+ls
+git remote -v
+cd ..
+cd static-website-example/
+ls
+git remote -v
+cd ..
+ls
+git init
+git remote -v
+pwd
+git remote add origin https://github.com/sakoba11/TP-docker-static_webapp.git
+git remote -v
+git add .
+git status
+git add .
+git remote rm origin
+git add -A .
+git status
+git commit -m "Push tp-docker"
+git status
+git remote -v
+git remote add origin https://github.com/sakoba11/TP-docker-static_webapp.git
+git add -A .
+git commit -m "Push tp-docker"
+git commit -a -m "Push tp-docker"
+git push origin master
+git pull origin master
+git push origin master
+git remote rm origin
+git remote -v
+ls
+cd static-website-example/
+ls
+cd ..
+git init
+cd
+pwd
+cd /home/centos/
+git remote -v
+ls
+git init
+git remote add sakoba https://github.com/sakoba11/tp_docker.git
+git status
+git add .
+git status
+git commit -m "push tp-docker"
+git status
+git commit -a -m "push tp-docker"
+git remote -v
+git remote rm sakoba
+git remote -v
